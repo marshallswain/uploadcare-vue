@@ -75,7 +75,8 @@ two simple steps to take to actually use the widget.
 
 ```html
 <script>
-  UPLOADCARE_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+  // set globally or in the component below
+  window.UPLOADCARE_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
 </script>
 ```
 
