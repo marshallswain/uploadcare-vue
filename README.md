@@ -8,6 +8,12 @@ ___
 
 # Uploadcare Vue
 
+<a href="https://uploadcare.com/?utm_source=tipe&utm_campaign=tipe-oss">
+  <img align="right" width="64" height="64"
+       src="https://ucarecdn.com/2f4864b7-ed0e-4411-965b-8148623aa680/uploadcare-logo-mark.svg"
+       alt="">
+</a>
+
 Uploadcare Vue is an HTML5 file uploader
 which itself is a part of [Uploadcare](https://uploadcare.com/?utm_source=tipe&utm_campaign=tipe-oss)
 ecosystem.
@@ -17,9 +23,14 @@ It’s provided as a typical JavaScript library and can be easily embedded in yo
 The widget is highly customizable to fit your needs.
 It supports multi-file uploads, manual crop, integrations with social networks and cloud storage providers.
 
+<a href="https://uploadcare.com/widget/configure/?utm_source=tipe&utm_campaign=tipe-oss" title="Play with Widget">
+  <img src="https://ucarecdn.com/021e5297-c1c4-43d4-97fc-6de7dd97c856/"
+       width="888" alt="Widget in action">
+</a>
+
 ## Docs
 
-See the complete docs on using Uploadcare Widget [here](https://uploadcare.com/documentation/widget/).
+See the complete docs on using Uploadcare Widget [here](https://uploadcare.com/documentation/widget/?utm_source=tipe&utm_campaign=tipe-oss).
 
 ## Types of bundles
 
@@ -28,7 +39,7 @@ There's a few types of js bundles:
 * `uploadcare.full.js` — a full bundle with built-in jQuery,
 * `uploadcare.js` — a bundle without built-in jQuery,
 * `uploadcare.api.js` — a bundle without UI of the widget and built-in jQuery,
-  [JavaScript API](https://uploadcare.com/documentation/javascript_api/) only,
+  [JavaScript API](https://uploadcare.com/documentation/javascript_api/?utm_source=tipe&utm_campaign=tipe-oss) only,
 * `uploadcare.ie8.js` — a full bundle with built-in jQuery 1.x for IE 8 support (widget v. 2.x and below),
 * `uploadcare.lang.en.js` — a bundle without built-in jQuery, `en` locale only.
 
@@ -52,7 +63,7 @@ import Uploadcare from 'uploadcare-vue'
 
 ### Other install methods
 
-The official Uploadcare Widget [documentation](https://uploadcare.com/documentation/widget/#install)
+The official Uploadcare Widget [documentation](https://uploadcare.com/documentation/widget/?utm_source=tipe&utm_campaign=tipe-oss#install)
 has more install methods.
 
 ## Usage
@@ -60,7 +71,7 @@ has more install methods.
 Once you’re done with the install, there are
 two simple steps to take to actually use the widget.
 
-**Set your [public key](https://uploadcare.com/documentation/widget/#option-public-key)**.
+**Set your [public key](https://uploadcare.com/documentation/widget/?utm_source=tipe&utm_campaign=tipe-oss#option-public-key)**.
 
 ```html
 <script>
@@ -84,17 +95,17 @@ secret keys anyway.)
 
 The widget is highly customizable through widget options.
 All configuration options together with ways to set them are
-described in [our docs](https://uploadcare.com/documentation/widget/#configuration).
+described in [our docs](https://uploadcare.com/documentation/widget/?utm_source=tipe&utm_campaign=tipe-oss#configuration).
 
 ## JavaScript API
 
 You might not want to use all the features that
-[our widget](https://uploadcare.com/documentation/widget/) exhibits.
+[our widget](https://uploadcare.com/documentation/widget/?utm_source=tipe&utm_campaign=tipe-oss) exhibits.
 Or, perhaps, you might want to redesign the user experience
 without having to reinvent the wheel.
 Maybe, you're in pursuit of building a UI on top of the widget.
 For all of those use cases, we provide a
-[JavaScript API](https://uploadcare.com/documentation/javascript_api/).
+[JavaScript API](https://uploadcare.com/documentation/javascript_api/?utm_source=tipe&utm_campaign=tipe-oss).
 Feel free to control the default widget with it,
 or make use of its standalone components that
 can be combined with your own solutions.
@@ -103,9 +114,9 @@ can be combined with your own solutions.
 
 It’s possible that your locale is not available in the widget yet.
 If that’s the case, contributing your locale might be a good idea.
-This can be done by forking the [main repository](https://github.com/uploadcare/uploadcare-widget)
+This can be done by forking the [main repository](https://github.com/uploadcare/uploadcare-widget?utm_source=tipe&utm_campaign=tipe-oss)
 and adding a localization file
-[here](https://github.com/uploadcare/uploadcare-widget/tree/master/app/assets/javascripts/uploadcare/locale).
+[here](https://github.com/uploadcare/uploadcare-widget/tree/master/app/assets/javascripts/uploadcare/locale?utm_source=tipe&utm_campaign=tipe-oss).
 
 ## Browser Support
 
@@ -116,7 +127,7 @@ of major browser too, except for Internet Explorer < 10.
 
 If you need to support of old browsers and IE8 too, you might use [v2 of widget][v2ie8].
 
-[v2ie8]: https://uploadcare.com/documentation/widget/v2/#ie8
+[v2ie8]: https://uploadcare.com/documentation/widget/v2/?utm_source=tipe&utm_campaign=tipe-oss#ie8
 
 <div>
   <table>
