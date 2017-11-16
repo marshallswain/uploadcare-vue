@@ -1,0 +1,11 @@
+{
+  "name": "uploadcare-vue",
+  "version": "0.0.0",
+  "description": "Uploadcare dialog for Vue apps by @TipeIO",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PatrickJS <patrick@tipe.io>",
+  "license": "MIT"
+}
