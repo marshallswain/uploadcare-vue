@@ -43,21 +43,30 @@
               previewStep: true
             })
             this.fileGroup.done((filePromise) => {
-              const promise = filePromise.promise()
-              promise.done(() => {
-                const files = filePromise.files()
-                files.forEach((fileProm) => {
-                  fileProm.done((file) => {
-                    this.$emit('success', file)
-                  })
-                  fileProm.fail((err) => {
-                    this.$emit('error', err)
+              if (this.multiple) {
+                const promise = filePromise.promise()
+                promise.done(() => {
+                  const files = filePromise.files()
+                  files.forEach((fileProm) => {
+                    fileProm.done((file) => {
+                      this.$emit('success', file)
+                    })
+                    fileProm.fail((err) => {
+                      this.$emit('error', err)
+                    })
                   })
                 })
-              })
-              promise.fail((err) => {
-                this.$emit('error', err)
-              })
+                promise.fail((err) => {
+                  this.$emit('error', err)
+                })
+              } else {
+                filePromise.done((file) => {
+                  this.$emit('success', file)
+                })
+                filePromise.fail((err) => {
+                  this.$emit('error', err)
+                })
+              }
             })
             this.fileGroup.fail((err) => {
               this.$emit('error', err)
