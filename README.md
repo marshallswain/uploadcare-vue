@@ -73,18 +73,9 @@ two simple steps to take to actually use the widget.
 
 **Set your [public key](https://uploadcare.com/documentation/widget/?utm_source=tipe&utm_campaign=tipe-oss#option-public-key)**.
 
-```html
-<script>
-  // set globally or in the component below
-  window.UPLOADCARE_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
-</script>
-```
-
 Your secret key is not required for the widget
-(it’s quite careless for your page to include any
-secret keys anyway.)
 
-**Insert widget element** into your form,
+**Insert widget element** and `uploadcare` component will listen to any click event
 
 ```html
 <uploadcare :publicKey="YOUR_PUBLIC_KEY" @success="onSuccess" @error="onError">
