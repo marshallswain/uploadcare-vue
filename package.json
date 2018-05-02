@@ -22,5 +22,8 @@
     "vue-loader": "^13.5.0",
     "vue-template-compiler": "^2.5.3",
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "uploadcare-widget": "^3.3.0"
   }
 }
